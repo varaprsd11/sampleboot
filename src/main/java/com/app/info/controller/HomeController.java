@@ -11,5 +11,8 @@ public class HomeController {
 	public String test() {
 		return "hello api start ";
 	}
-
+	@RequestMapping("/me")
+	public String hello() {
+		return "Hello "+"User";
+	}
 }
